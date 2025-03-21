@@ -1,38 +1,28 @@
 [{
   "url": "https://community.sourcegraph.com/t/updating-cody-search-index-hangs-forever/2275",
-  "title": "Updating Cody search index… hangs forever",
-  "answer": "I have been on this for two weeks. Now, I believe it is not directly related to Cody. I had Python Extension deactivated, and activating it fixed the problem."
+  "title": "Troubleshooting stalled Cody search index updates",
+  "answer": "If you encounter a situation where the 'Updating Cody search index...' process appears to hang indefinitely, it may not be directly related to Cody itself. One potential cause could be related to extension dependencies. In one user's experience, deactivating the Python extension led to this issue, and reactivating it resolved the problem. Therefore, it's advisable to check your extensions and ensure they are properly enabled."
 },
 {
   "url": "https://community.sourcegraph.com/t/claude-3-7-sonnet-does-not-show-in-model-list-es-plan/2259",
-  "title": "Claude 3.7 Sonnet does not show in model list ES plan",
-  "answer": "All models available on Pro will be rollout out gradually to Enterprise Starters. The team is already aware of it and working on it."
-},
-{
-  "url": "https://community.sourcegraph.com/t/keep-getting-error-this-file-has-been-restricted-by-an-admin-autocomplete-commands-and-other-cody-features-are-disabled/2101",
-  "title": "Keep getting error: This file has been restricted by an admin. Autocomplete, commands, and other Cody features are disabled",
-  "answer": "I was able to get it working by downgrading to Pycharm version - 2024.2.5. Previously I had the latest - 2024.3.2."
+  "title": "Availability of Claude 3.7 Sonnet model for Enterprise Starter plan users",
+  "answer": "The Claude 3.7 Sonnet model, currently available on the Pro plan, is scheduled for a phased rollout to Enterprise Starter users. Our team is actively working to make this model accessible to all Enterprise Starter subscribers."
 },
 {
   "url": "https://community.sourcegraph.com/t/security-question/2115",
-  "title": "Security Question",
-  "answer": "As far as I know then if you are using your own API key and model configuration with cody.dev.models then request is directly made to your provider. Of course, maybe some additional processing may happen in the background to fetch the context and send some telemetry data but overall the processed promopt/request should be sent to your deployment directly."
-},
-{
-  "url": "https://community.sourcegraph.com/t/cody-plugin-not-working-with-goland-eap/1857",
-  "title": "Cody plugin not working with GoLand EAP",
-  "answer": "JB released an update to the GoLand EAP. The 7.12.1 nightly build plugin seems to work with Build #GO-251.17181.28, built on January 23, 2025."
+  "title": "Security considerations when using custom API keys and model configurations",
+  "answer": "When utilizing your own API key and model configuration with Cody and `cody.dev.models`, the requests are primarily routed directly to your designated provider. While some background processing may occur to gather context and transmit telemetry data, the core prompt and request are designed to be sent to your deployment. This architecture aims to ensure that sensitive data remains within your control, minimizing exposure to external systems."
 },
 {
   "url": "https://community.sourcegraph.com/t/vscode-extension-not-working-in-ssh-remote-connection/1834",
-  "title": "VScode extension not working in SSH remote connection",
-  "answer": "I patched the package.json of sourcegraph.sourcegraph and set \"extensionKind\": [ \"ui\" ], and then reinstalled the extension. When I now establish a remote connection, Sourcegraph code search works fine with the local settings also in the remote workspace."
+  "title": "Troubleshooting Sourcegraph VS Code extension in SSH remote connections",
+  "answer": "For users experiencing issues with the Sourcegraph VS Code extension within an SSH remote connection, a potential workaround involves manually modifying the `package.json` file of the `sourcegraph.sourcegraph` extension. Specifically, by setting the `\"extensionKind\"` property to `[ \"ui\" ]` and then reinstalling the extension, users have reported successful functionality of Sourcegraph code search within remote workspaces, utilizing local settings."
 },
 {
   "url": "https://community.sourcegraph.com/t/hitting-limits-due-to-model-switching/2200",
-  "title": "Hitting Limits Due to Model Switching",
-  "answer": "My ban was overturned. It appears that was related to 'problematic code'. Please update your plugin/extension to the latest stable version of Cody and then try logging in and out again."
-},
+  "title": "Resolving rate limit issues caused by model switching",
+  "answer": "If you've encountered rate limit issues due to frequent model switching, and have been informed it's related to 'problematic code', we recommend the following steps: First, ensure your Cody plugin or extension is updated to the latest stable version. Then, try logging out and back into your Sourcegraph account. This should resolve the issue and prevent future occurrences."
+}
 {
   "url": "https://community.sourcegraph.com/t/error-403-workspaces-forbidden-user-is-banned/2438",
   "title": "Error: 403 workspaces forbidden user is banned",
