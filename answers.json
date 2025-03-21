@@ -42,4 +42,9 @@
   "url": "https://community.sourcegraph.com/t/change-the-plan/2315",
   "title": "Changing your Sourcegraph subscription plan",
   "answer": "To modify your current Sourcegraph subscription plan, the most efficient method is to cancel your existing subscription and then resubscribe with the desired plan. This ensures a seamless transition and accurate billing for your chosen services."
+},
+{
+  "url": "https://community.sourcegraph.com/t/extremely-laggy-in-vscode/1792",
+  "title": "Extremely laggy in VS Code",
+  "answer": "If you're experiencing significant lag when using Sourcegraph within VS Code, a potential solution is to clear your chat history. Within the chat history tab, you'll find a trash bin icon labeled 'Delete All,' which allows you to remove the entire chat log. This can sometimes resolve performance bottlenecks."
 }]
