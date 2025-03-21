@@ -32,4 +32,9 @@
   "url": "https://community.sourcegraph.com/t/hitting-limits-due-to-model-switching/2200",
   "title": "Hitting Limits Due to Model Switching",
   "answer": "My ban was overturned. It appears that was related to 'problematic code'. Please update your plugin/extension to the latest stable version of Cody and then try logging in and out again."
+},
+{
+  "url": "https://community.sourcegraph.com/t/error-403-workspaces-forbidden-user-is-banned/2438",
+  "title": "Encountering a 403 Forbidden error: 'Workspaces forbidden user is banned'",
+  "answer": "If you're seeing a '403 Forbidden' error message related to workspaces and user ban status, please reach out to our support team directly at support@sourcegraph.com for detailed assistance and clarification. They will be able to investigate your specific situation and provide the necessary support."
 }]
