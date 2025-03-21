@@ -1,6 +1,6 @@
 # About
 
-This repo generates a JSON file with answers to questions on Sourcegraph's community forum. It uses TP and Gemini to generate the JSON file.
+This repo generates a JSON file with answers to questions on Sourcegraph's community forum [that are solved](https://community.sourcegraph.com/search?q=status%3Asolved). It uses TP and Gemini to generate [the JSON file](https://raw.githubusercontent.com/sourcegraph-community/forum-answers-for-docs/refs/heads/main/answers.json).
 
 ## Prompts
 
@@ -36,6 +36,11 @@ Going forward I will give you a url, and you will append the next json object to
 ```
 The questions ("title") and "answer" are from a forum so the grammar and context might be off. rewrite these faqs and keep the json format.
 ```
+
+#### Why Gemini?
+
+1. Cheaper
+2. It has context about Sourcegraph from a Gem (instructions)
 
 ## Publish
 
