@@ -2,7 +2,7 @@
 
 ## Commands
 - No formal build/test commands in this project
-- Changes are published with: `git commit` followed by `git push`
+- when a url starting with `https://community.sourcegraph.com/` is encountered, the content is extracted and added to the JSON file
 
 ## Project Purpose
 This repo scrapes solved questions from Sourcegraph's community forum and creates a structured JSON file containing the questions and answers. The process uses TP to extract content and Gemini to improve the writing.
