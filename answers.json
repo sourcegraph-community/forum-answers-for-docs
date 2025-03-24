@@ -37,4 +37,9 @@
   "url": "https://community.sourcegraph.com/t/extremely-laggy-in-vscode/1792",
   "title": "Extremely laggy in VS Code",
   "answer": "If you're experiencing significant lag when using Sourcegraph within VS Code, a potential solution is to clear your chat history. Within the chat history tab, you'll find a trash bin icon labeled 'Delete All,' which allows you to remove the entire chat log. This can sometimes resolve performance bottlenecks."
+},
+{
+  "url": "https://community.sourcegraph.com/t/received-no-parseable-response-data-from-anthropic/2396",
+  "title": "Received no parseable response data from Anthropic",
+  "answer": "Anthropic servers occasionally experience downtime that can cause this error. When you encounter 'Received no parseable response data from Anthropic', check the Anthropic Status page for service disruptions. Restarting your IDE typically won't resolve this issue if it's related to server availability."
 }]
