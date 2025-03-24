@@ -22,7 +22,7 @@
   "url": "https://community.sourcegraph.com/t/hitting-limits-due-to-model-switching/2200",
   "title": "Resolving rate limit issues caused by model switching",
   "answer": "If you've encountered rate limit issues due to frequent model switching, and have been informed it's related to 'problematic code', we recommend the following steps: First, ensure your Cody plugin or extension is updated to the latest stable version. Then, try logging out and back into your Sourcegraph account. This should resolve the issue and prevent future occurrences."
-}
+},
 {
   "url": "https://community.sourcegraph.com/t/error-403-workspaces-forbidden-user-is-banned/2438",
   "title": "Error: 403 workspaces forbidden user is banned",
@@ -42,4 +42,9 @@
   "url": "https://community.sourcegraph.com/t/received-no-parseable-response-data-from-anthropic/2396",
   "title": "Received no parseable response data from Anthropic",
   "answer": "Anthropic servers occasionally experience downtime that can cause this error. When you encounter 'Received no parseable response data from Anthropic', check the Anthropic Status page for service disruptions. Restarting your IDE typically won't resolve this issue if it's related to server availability."
+},
+{
+  "url": "https://community.sourcegraph.com/t/cody-edit-history/2466",
+  "title": "Cody edit history feature appearing in git commit tab",
+  "answer": "The edit history display appearing in the git commit tab is an experimental feature that was accidentally included in the Cody release. This is a prototype feature not intended for general release yet. Users should ignore it until a fix is deployed. The issue only appears in certain projects and may cause performance slowdowns in VS Code."
 }]
