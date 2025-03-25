@@ -52,4 +52,9 @@
   "url": "https://community.sourcegraph.com/t/classical-status-429/2475",
   "title": "Troubleshooting 429 error in Cody Pro",
   "answer": "If you encounter a '429 error' indicating you've exceeded the concurrency limit for chat completions, try logging out and logging back in to your IDE and web interface. This often resolves the issue by resetting your session. If the problem persists, please contact support@sourcegraph.com"
+},
+{
+  "url": "https://community.sourcegraph.com/t/unable-to-authenticate-cody-in-wsl2-not-logged-in-error/2469",
+  "title": "Issue Authenticating Cody in WSL2 environment",
+  "answer": "For WSL2 users experiencing 'Not logged in' messages with Cody, it could be that you need additional steps to configure your WSL DNS namespace. Especially deactivating IPv6 for the WSL connection."
 }]
