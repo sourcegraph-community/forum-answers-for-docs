@@ -47,4 +47,19 @@
   "url": "https://community.sourcegraph.com/t/cody-edit-history/2466",
   "title": "Cody edit history feature appearing in git commit tab",
   "answer": "The edit history display appearing in the git commit tab is an experimental feature that was accidentally included in the Cody release. This is a prototype feature not intended for general release yet. Users should ignore it until a fix is deployed. The issue only appears in certain projects and may cause performance slowdowns in VS Code."
+},
+{
+  "url": "https://community.sourcegraph.com/t/classical-status-429/2475",
+  "title": "Troubleshooting 429 error in Cody Pro",
+  "answer": "If you encounter a '429 error' indicating you've exceeded the concurrency limit for chat completions, try logging out and logging back in to your IDE and web interface. This often resolves the issue by resetting your session. If the problem persists, please contact support@sourcegraph.com"
+},
+{
+  "url": "https://community.sourcegraph.com/t/unable-to-authenticate-cody-in-wsl2-not-logged-in-error/2469",
+  "title": "Issue Authenticating Cody in WSL2 environment",
+  "answer": "For WSL2 users experiencing 'Not logged in' messages with Cody, it could be that you need additional steps to configure your WSL DNS namespace. Especially deactivating IPv6 for the WSL connection."
+},
+{
+  "url": "https://community.sourcegraph.com/t/add-private-github-repos-to-enterprise-starter/2459",
+  "title": "Adding private GitHub repos from multiple accounts to Enterprise Starter",
+  "answer": "When linking private GitHub repositories from multiple accounts to your Enterprise Starter instance, check that all repositories are visible in the repository manager and that you've configured it to use all repositories instead of selected ones. If you're still having issues, verify that all GitHub accounts use the same registered email address, as differences can prevent successful repository linking."
 }]
