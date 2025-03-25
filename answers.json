@@ -47,4 +47,9 @@
   "url": "https://community.sourcegraph.com/t/cody-edit-history/2466",
   "title": "Cody edit history feature appearing in git commit tab",
   "answer": "The edit history display appearing in the git commit tab is an experimental feature that was accidentally included in the Cody release. This is a prototype feature not intended for general release yet. Users should ignore it until a fix is deployed. The issue only appears in certain projects and may cause performance slowdowns in VS Code."
+},
+{
+  "url": "https://community.sourcegraph.com/t/classical-status-429/2475",
+  "title": "Troubleshooting 429 error in Cody Pro",
+  "answer": "If you encounter a '429 error' indicating you've exceeded the concurrency limit for chat completions, try logging out and logging back in to your IDE and web interface. This often resolves the issue by resetting your session. If the problem persists, please contact support@sourcegraph.com"
 }]
