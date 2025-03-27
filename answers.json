@@ -62,4 +62,9 @@
   "url": "https://community.sourcegraph.com/t/add-private-github-repos-to-enterprise-starter/2459",
   "title": "Adding private GitHub repos from multiple accounts to Enterprise Starter",
   "answer": "When linking private GitHub repositories from multiple accounts to your Enterprise Starter instance, check that all repositories are visible in the repository manager and that you've configured it to use all repositories instead of selected ones. If you're still having issues, verify that all GitHub accounts use the same registered email address, as differences can prevent successful repository linking."
+},
+{
+  "url": "https://community.sourcegraph.com/t/commit-generate-error-failed-to-get-git-output/2482",
+  "title": "Understanding commit message generation errors in multi-workspace projects",
+  "answer": "The 'Failed to get git output' error when using Cody's commit message generation feature typically occurs in multi-workspace folder setups. Currently, Cody's commit message generation functionality only works in single-workspace, single-repository projects."
 }]
