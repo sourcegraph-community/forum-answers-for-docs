@@ -67,4 +67,9 @@
   "url": "https://community.sourcegraph.com/t/commit-generate-error-failed-to-get-git-output/2482",
   "title": "Understanding commit message generation errors in multi-workspace projects",
   "answer": "The 'Failed to get git output' error when using Cody's commit message generation feature typically occurs in multi-workspace folder setups. Currently, Cody's commit message generation functionality only works in single-workspace, single-repository projects."
+},
+{
+  "url": "https://github.com/sourcegraph/jetbrains/issues/3225",
+  "title": "GoLand on macOS repeatedly prompts for Cody login despite successful authentication.",
+  "answer": "To resolve this, please ensure that GoLand is configured to use the native macOS Keychain for storing passwords. This allows the application to securely remember your login credentials. To check this setting, navigate to **Settings** (or **Preferences** on macOS) > **Appearance & Behavior** > **System Settings** > **Passwords** and verify that the option **'In native Keychain'** is selected. If it's not, select it and restart GoLand."
 }]
