@@ -1,4 +1,9 @@
 [{
+  "url": "https://community.sourcegraph.com/t/how-to-change-account-login-method/2498",
+  "title": "Changing account login method from Google to Sourcegraph",
+  "answer": "To switch your login method from Google to Sourcegraph, use the Sourcegraph Enterprise login option despite being a Pro user. After logging out, select the Enterprise option, enter https://sourcegraph.com as the URL and use your access token. This method works for cloud customers who need custom URLs and for Sourcegraph Gateway instances."
+},
+{
   "url": "https://community.sourcegraph.com/t/updating-cody-search-index-hangs-forever/2275",
   "title": "Troubleshooting stalled Cody search index updates",
   "answer": "If you encounter a situation where the 'Updating Cody search index...' process appears to hang indefinitely, it may not be directly related to Cody itself. One potential cause could be related to extension dependencies. In one user's experience, deactivating the Python extension led to this issue, and reactivating it resolved the problem. Therefore, it's advisable to check your extensions and ensure they are properly enabled."
