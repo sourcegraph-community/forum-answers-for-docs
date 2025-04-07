@@ -26,10 +26,10 @@
 {
   "url": "https://community.sourcegraph.com/t/hitting-limits-due-to-model-switching/2200",
   "title": "Resolving rate limit issues caused by model switching",
-  "answer": "If you've encountered rate limit issues due to frequent model switching, and have been informed it's related to 'problematic code', we recommend the following steps: First, ensure your Cody plugin or extension is updated to the latest stable version. Then, try logging out and back into your Sourcegraph account. This should resolve the issue and prevent future occurrences."
+  "url": "https://community.sourcegraph.com/t/error-403-workspaces-forbidden-user-is-banned/2438",
+  "answer": "If you encounter rate limit issues due to frequent model switching, update your Cody plugin/extension to the latest stable version. Then, log out and log back into your Sourcegraph account to resolve the issue. This solution addresses problems related to what Sourcegraph identified as 'problematic code' that caused some users to be incorrectly flagged or banned."
 },
 {
-  "url": "https://community.sourcegraph.com/t/error-403-workspaces-forbidden-user-is-banned/2438",
   "title": "Error: 403 workspaces forbidden user is banned",
   "answer": "Please contact support@sourcegraph.com via e-mail for further clarification."
 },
