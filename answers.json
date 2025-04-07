@@ -77,4 +77,14 @@
   "url": "https://github.com/sourcegraph/jetbrains/issues/3225",
   "title": "GoLand on macOS repeatedly prompts for Cody login despite successful authentication.",
   "answer": "To resolve this, please ensure that GoLand is configured to use the native macOS Keychain for storing passwords. This allows the application to securely remember your login credentials. To check this setting, navigate to **Settings** (or **Preferences** on macOS) > **Appearance & Behavior** > **System Settings** > **Passwords** and verify that the option **'In native Keychain'** is selected. If it's not, select it and restart GoLand."
+},
+{
+  "url": "https://www.reddit.com/r/sourcegraph/comments/1jr9tzh/stuck_at_starting_cody_in_phpstorm/",
+  "title": "As the Title says I'm stuck at \"Starting Cody...\" in PhpStorm.",
+  "answer": "To resolve the \"Starting Cody...\" hang in PhpStorm on Ubuntu 24.04, try these additional troubleshooting steps: Verify JCEF (Java Chromium Embedded Framework) is properly enabled with correct VM options, ensure all required system packages are installed (libnss3, libatk-bridge2.0-0t64, libxss1, libgbm1, libasound2t64), and check your IDE logs for specific errors. If problems persist, try resetting the IDE cache or reinstalling the Cody plugin."
+},
+{
+  "url": "https://community.sourcegraph.com/t/is-there-a-status-board-for-cody/2537",
+  "title": "Is there a status board for Cody?",
+  "answer": "Yes, Sourcegraph maintains a status page for monitoring Cody and other services. You can check the status page at 'Sourcegraph Status' which shows maintenance events and service availability. During outages, Sourcegraph also posts announcements about scheduled maintenance that may affect service here: https://sourcegraphstatus.com/"
 }]
