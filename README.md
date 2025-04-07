@@ -1,14 +1,14 @@
 # About
 
-This repo generates a JSON file with answers to questions on Sourcegraph's community forum [that are solved](https://community.sourcegraph.com/search?q=status%3Asolved). It uses TP and Gemini to generate [the JSON file](https://raw.githubusercontent.com/sourcegraph-community/forum-answers-for-docs/refs/heads/main/answers.json).
+This repo generates a JSON file with answers to questions on Sourcegraph's community forum [that are solved](https://community.sourcegraph.com/search?q=status%3Asolved). It uses Amp to generate [the JSON file](https://raw.githubusercontent.com/sourcegraph-community/forum-answers-for-docs/refs/heads/main/answers.json).
 
 ## How does it work?
 
-TP uses `memory.md` so all you need to do is paste the url in the text box and `command+return`. This will automatically append a new JSON object to the bottom of the file.
+Amp uses `memory.md` so all you need to do is paste the url in the text box and `command+return`. This will automatically append a new JSON object to the bottom of the file.
 
 ## Prompts
 
-### TP
+### Amp
 
 ```
 I want you to go to this page: https://community.sourcegraph.com/t/updating-cody-search-index-hangs-forever/2275
