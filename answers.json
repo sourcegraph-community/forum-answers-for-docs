@@ -87,4 +87,9 @@
   "url": "https://community.sourcegraph.com/t/is-there-a-status-board-for-cody/2537",
   "title": "Is there a status board for Cody?",
   "answer": "Yes, Sourcegraph maintains a status page for monitoring Cody and other services. You can check the status page at 'Sourcegraph Status' which shows maintenance events and service availability. During outages, Sourcegraph also posts announcements about scheduled maintenance that may affect service here: https://sourcegraphstatus.com/"
+},
+{
+  "url": "https://community.sourcegraph.com/t/how-to-ignore-files-folders/2622",
+  "title": "How to ignore files/folders in Cody",
+  "answer": "Currently, Cody does not have a built-in file/folder ignore feature for JetBrains IDEs. While the documentation mentions an ignore feature for Enterprise users, this is not available for Pro users at this time. The feature has been requested and tagged for the product team's consideration. Pro users seeking similar functionality should monitor future updates as this has been identified as a desired feature."
 }]
