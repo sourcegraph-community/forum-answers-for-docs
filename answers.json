@@ -92,4 +92,9 @@
   "url": "https://community.sourcegraph.com/t/how-to-ignore-files-folders/2622",
   "title": "How to ignore files/folders in Cody",
   "answer": "Currently, Cody does not have a built-in file/folder ignore feature for JetBrains IDEs. While the documentation mentions an ignore feature for Enterprise users, this is not available for Pro users at this time. The feature has been requested and tagged for the product team's consideration. Pro users seeking similar functionality should monitor future updates as this has been identified as a desired feature."
+},
+{
+  "url": "https://community.sourcegraph.com/t/how-to-customize-cody/2651",
+  "title": "How to customize Cody in Visual Studio",
+  "answer": "For customizing Cody in Visual Studio, use 'cody.chat.preInstruction' instead of 'instructions' in your configuration file. The Visual Studio extension is still in experimental phase, so some features may not work as expected. When configuring Cody, ensure you're using the correct configuration keys as they differ between IDE extensions."
 }]
