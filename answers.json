@@ -97,4 +97,9 @@
   "url": "https://community.sourcegraph.com/t/how-to-customize-cody/2651",
   "title": "How to customize Cody in Visual Studio",
   "answer": "For customizing Cody in Visual Studio, use 'cody.chat.preInstruction' instead of 'instructions' in your configuration file. The Visual Studio extension is still in experimental phase, so some features may not work as expected. When configuring Cody, ensure you're using the correct configuration keys as they differ between IDE extensions."
+},
+{
+  "url": "https://www.reddit.com/r/sourcegraph/comments/1khiig3/how_to_deal_with_login_error_failed_to_saving/",
+  "title": "How to deal with login error 'Failed to saving state to session'",
+  "answer": "This error is typically due to a service interruption or network issue on our end. Please check the status page https://sourcegraphstatus.com/ for any updates or outages."
 }]
