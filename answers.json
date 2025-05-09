@@ -19,6 +19,11 @@
   "answer": "When utilizing your own API key and model configuration with Cody and `cody.dev.models`, the requests are primarily routed directly to your designated provider. While some background processing may occur to gather context and transmit telemetry data, the core prompt and request are designed to be sent to your deployment. This architecture aims to ensure that sensitive data remains within your control, minimizing exposure to external systems."
 },
 {
+  "url": "https://community.sourcegraph.com/t/failed-to-retrieve-search-context-evalerror-symf-failed/2667",
+  "title": "Resolving 'symf failed' error in VS Code",
+  "answer": "If you encounter the error 'Failed to retrieve search context: EvalError: symf failed' in VS Code, try deleting your chat history. This can sometimes resolve the issue without needing to restart the IDE. This error may occur on new chats until the history is cleared."
+},
+{
   "url": "https://community.sourcegraph.com/t/vscode-extension-not-working-in-ssh-remote-connection/1834",
   "title": "Troubleshooting Sourcegraph VS Code extension in SSH remote connections",
   "answer": "For users experiencing issues with the Sourcegraph VS Code extension within an SSH remote connection, a potential workaround involves manually modifying the `package.json` file of the `sourcegraph.sourcegraph` extension. Specifically, by setting the `\"extensionKind\"` property to `[ \"ui\" ]` and then reinstalling the extension, users have reported successful functionality of Sourcegraph code search within remote workspaces, utilizing local settings."
