@@ -1,4 +1,10 @@
-[{
+[
+{
+  "url": "https://community.sourcegraph.com/t/disallowed-special-token-found-im-start/2717",
+  "title": "Handling disallowed special tokens in code files",
+  "answer": "When working with code that contains special tokens like '<|im_start|>' that are interpreted as prompt injection attempts, these tokens cannot be directly included in the context. This is a security guardrail implemented by design to prevent prompt injection. Currently, there is no built-in escaping mechanism to allow these tokens to be processed normally. Consider manually modifying your files to use alternative representations if you need to work with these tokens in your codebase."
+},
+{
   "url": "https://community.sourcegraph.com/t/how-to-change-account-login-method/2498",
   "title": "Changing account login method from Google to Sourcegraph",
   "answer": "To switch your login method from Google to Sourcegraph, use the Sourcegraph Enterprise login option despite being a Pro user. After logging out, select the Enterprise option, enter https://sourcegraph.com as the URL and use your access token. This method works for cloud customers who need custom URLs and for Sourcegraph Gateway instances."
